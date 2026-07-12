@@ -1,0 +1,46 @@
+{
+  "diseases": [
+    "diabetes", "type 1 diabetes", "type 2 diabetes", "hypertension", "high blood pressure",
+    "asthma", "migraine", "influenza", "flu", "common cold", "covid-19", "coronavirus",
+    "pneumonia", "bronchitis", "arthritis", "rheumatoid arthritis", "osteoarthritis",
+    "depression", "anxiety", "gerd", "acid reflux", "heart disease", "coronary artery disease",
+    "stroke", "heart attack", "myocardial infarction", "cancer", "breast cancer", "lung cancer",
+    "prostate cancer", "colon cancer", "skin cancer", "melanoma", "obesity", "osteoporosis",
+    "anemia", "hepatitis", "hepatitis b", "hepatitis c", "hiv", "aids", "tuberculosis",
+    "chronic kidney disease", "kidney failure", "liver disease", "cirrhosis", "gallstones",
+    "irritable bowel syndrome", "ibs", "crohn's disease", "ulcerative colitis", "celiac disease",
+    "epilepsy", "seizure disorder", "parkinson's disease", "alzheimer's disease", "dementia",
+    "multiple sclerosis", "lupus", "psoriasis", "eczema", "acne", "allergies", "food allergy",
+    "sinusitis", "ear infection", "urinary tract infection", "uti", "kidney stones",
+    "thyroid disease", "hypothyroidism", "hyperthyroidism", "gout", "sleep apnea", "insomnia",
+    "copd", "chronic obstructive pulmonary disease", "emphysema", "cystic fibrosis",
+    "measles", "mumps", "chickenpox", "shingles", "strep throat", "whooping cough",
+    "malaria", "dengue fever", "zika virus", "ebola", "sepsis", "meningitis",
+    "glaucoma", "cataracts", "macular degeneration", "endometriosis", "pcos",
+    "polycystic ovary syndrome", "menopause", "erectile dysfunction", "infertility"
+  ],
+  "symptoms": [
+    "fever", "cough", "sore throat", "headache", "fatigue", "nausea", "vomiting", "diarrhea",
+    "constipation", "abdominal pain", "chest pain", "shortness of breath", "difficulty breathing",
+    "dizziness", "rash", "itching", "swelling", "joint pain", "muscle pain", "back pain",
+    "weight loss", "weight gain", "loss of appetite", "night sweats", "chills",
+    "runny nose", "stuffy nose", "sneezing", "congestion", "wheezing", "palpitations",
+    "blurred vision", "numbness", "tingling", "weakness", "confusion", "memory loss",
+    "insomnia", "excessive thirst", "frequent urination", "blood in urine", "blood in stool",
+    "jaundice", "yellowing of the skin", "bruising", "bleeding gums", "hair loss",
+    "dry skin", "swollen lymph nodes", "difficulty swallowing", "heartburn", "bloating",
+    "cramping", "anxiety", "mood swings", "irritability", "tremor", "seizures"
+  ],
+  "treatments": [
+    "antibiotics", "insulin", "chemotherapy", "radiation therapy", "surgery", "physical therapy",
+    "vaccine", "vaccination", "immunization", "medication", "painkillers", "ibuprofen",
+    "acetaminophen", "aspirin", "antihistamines", "corticosteroids", "steroids",
+    "statins", "beta blockers", "ace inhibitors", "diuretics", "antidepressants",
+    "antiviral medication", "antifungal medication", "dialysis", "transplant",
+    "bypass surgery", "angioplasty", "physiotherapy", "psychotherapy", "counseling",
+    "cognitive behavioral therapy", "cbt", "rehabilitation", "diet modification",
+    "exercise", "lifestyle changes", "inhaler", "nebulizer", "oxygen therapy",
+    "blood pressure medication", "cholesterol medication", "hormone therapy",
+    "immunotherapy", "biologics", "anticoagulants", "blood thinners"
+  ]
+}
