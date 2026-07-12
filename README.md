@@ -48,7 +48,7 @@ source venv/bin/activate        # Windows: venv\Scripts\activate
 pip install -r requirements.txt
 ```
 
-### Option A — run immediately with the bundled sample data
+### run immediately with the bundled sample data
 
 The repo already includes `data/sample_medquad.csv` (~50 hand-written QA
 pairs covering common conditions), so you can just run:
@@ -70,28 +70,4 @@ sample file if it exists, so no other code changes are needed. Note that
 MedQuAD's license excludes some sub-collections (e.g. some CDC/GARD content
 has redistribution notes) — see the dataset's own README for details.
 
-## Extending this project
 
-- **Better retrieval:** swap `src/retriever.py`'s TF-IDF vectorizer for a
-  sentence-embedding model (e.g. `sentence-transformers`) plus a vector index
-  (e.g. FAISS/Chroma) for semantic (not just lexical) matching.
-- **Better entity recognition:** swap `MedicalEntityRecognizer` for a proper
-  clinical NER model, e.g. scispaCy's `en_ner_bc5cdr_md`, or a UMLS-linked
-  model — the `extract(text) -> dict` interface is intentionally
-  model-agnostic so this is a drop-in change.
-- **Answer re-ranking:** use the recognized entities to boost/filter retrieved
-  candidates whose `focus` field matches a recognized disease.
-- **Conversation memory:** track prior turns to resolve follow-ups like
-  "What about children?" after a question about a specific disease.
-
-## Testing without Streamlit
-
-```bash
-python -c "
-from src.chatbot import MedicalChatbot
-bot = MedicalChatbot()
-r = bot.answer('What are the symptoms of diabetes?')
-print(r['entities'])
-print(r['results'][0]['answer'])
-"
-```
